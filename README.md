@@ -1,6 +1,6 @@
 # Hello
 This is a simple README.md file for test project
-```bash
+
     git config --global user.name "your_name"
     git config --global user.email "your_email"
     git config --global core.autocrlf true
@@ -27,7 +27,6 @@ This is a simple README.md file for test project
     To https://github.com/artembell/hello.git
      * [new branch]      master -> master
     Branch master set up to track remote branch master from origin.
-```
     
 
 # h1 заголовок первого уровня
