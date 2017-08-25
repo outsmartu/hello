@@ -1,9 +1,37 @@
 # Hello
 This is a simple README.md file for test project
 
-#h1 заголовок первого уровня
+    git config --global user.name "your_name"
+    git config --global user.email "your_email"
+    git config --global core.autocrlf true
+    git config --global core.safecrlf true
+    
+    cd path/to/directory
+    touch test.txt
+    "Hello world!"
+    
+    git init
+    git add test.txt
+    git commit -m "First Commit"
+    
+    [master (root-commit) d227fd1] First Commit
+     1 file changed, 1 insertion(+)
+     create mode 100644 hello.html
+    
+    git remote add origin https://github.com/artembell/hello.git
+    git push -u origin master
+    
+    Counting objects: 3, done.
+    Writing objects: 100% (3/3), 223 bytes | 0 bytes/s, done.
+    Total 3 (delta 0), reused 0 (delta 0)
+    To https://github.com/artembell/hello.git
+     * [new branch]      master -> master
+    Branch master set up to track remote branch master from origin.
+    
 
-#h2 заголовок второго уровня
+# h1 заголовок первого уровня
+
+## h2 заголовок второго уровня
 
 ### h3 заголовок третьего уровня
 
@@ -22,9 +50,7 @@ This is a simple README.md file for test project
 
 `выделенные слова`
 
-    dir /fonts
-    dir /images
-    dir /js
+
     
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
